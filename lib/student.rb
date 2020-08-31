@@ -26,7 +26,7 @@ class Student
       LIMIT 1
       SQL
       
-      DB[:conn].execute(sql).map
+      DB[:conn].execute(sql, name).map do |
   end
   
   def save
