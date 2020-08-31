@@ -33,9 +33,9 @@ class Student
       SELECt *
       FROM students
       WHERE grade < 12
-      SQL
+    SQL
       
-      DB[:conn].execute(sql)
+    DB[:conn].execute(sql)
   end
 
   def self.find_by_name(name)
